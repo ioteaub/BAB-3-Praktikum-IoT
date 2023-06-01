@@ -17,14 +17,14 @@ DHT dht(DHT11PIN,DHTTYPE);
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "Praktikum IoT"
-#define WIFI_PASSWORD "InternetofThings"
+#define WIFI_SSID "Nama Wifi"
+#define WIFI_PASSWORD "Password Wifi"
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyCTdYV44uVge6S4tuEyeNL8jtZMY792pMo "
+#define API_KEY "Masukan Web API Key"
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://praktikum-iot-9c140-default-rtdb.firebaseio.com/" 
+#define DATABASE_URL "Masukan url relatime database" 
 
 //Define Firebase Data object
 FirebaseData fbdo;
